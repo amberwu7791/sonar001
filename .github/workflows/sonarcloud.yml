@@ -33,9 +33,5 @@ jobs:
       uses: SonarSource/sonarcloud-github-action@v2  # ✅ use latest version
       with:
         args: >
-          -Dsonar.projectKey=your-org_project       # 🔁 Replace this
-          -Dsonar.organization=your-org             # 🔁 Replace this
-          -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.verbose=true
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
