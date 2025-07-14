@@ -35,7 +35,5 @@ jobs:
         args: >
           -Dsonar.projectKey=amberwu7791_sonar001       # 🔁 Replace this
           -Dsonar.organization=amberwu7791            # 🔁 Replace this
-          -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.verbose=true
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
